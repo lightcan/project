@@ -4,6 +4,7 @@
 $config['menu_choices'] = array(
     'Home' => '/',
     'Posts' => '/',
+    'Contact' => '/',
 );
 
 
