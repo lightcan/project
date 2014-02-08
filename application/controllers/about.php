@@ -18,7 +18,7 @@ class About extends Application {
     //-------------------------------------------------------------
 
     function index() {
-        $this->data['title'] = 'My Wonderful Webapp';
+        $this->data['title'] = 'About';
         $this->data['pagebody'] = 'about';
         $this->render();
     }

@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Our homepage.
+ * app page.
  * 
- * controllers/blog.php
+ * controllers/apps.php
  *
  * ------------------------------------------------------------------------
  */
-class Blog extends Application {
+class Apps extends Application {
 
     function __construct() {
         parent::__construct();
@@ -19,7 +19,7 @@ class Blog extends Application {
 
     function index() {
         $this->data['title'] = 'AppAttack';
-        $this->data['pagebody'] = 'blog';
+        $this->data['pagebody'] = 'apps';
         $this->render();
     }
 

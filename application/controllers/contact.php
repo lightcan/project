@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Our homepage.
+ * Contact pag
  * 
- * controllers/blog.php
+ * controllers/contact.php
  *
  * ------------------------------------------------------------------------
  */
-class Blog extends Application {
+class Contact extends Application {
 
     function __construct() {
         parent::__construct();
@@ -19,11 +19,11 @@ class Blog extends Application {
 
     function index() {
         $this->data['title'] = 'AppAttack';
-        $this->data['pagebody'] = 'blog';
+        $this->data['pagebody'] = 'contact';
         $this->render();
     }
 
 }
 
-/* End of file blog.php */
+/* End of file contact.php */
 /* Location: application/controllers/blog.php */
