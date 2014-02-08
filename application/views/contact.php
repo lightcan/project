@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Contact - Women Clothing Web Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-<body>
-	<div id="header">
-		<div>
-			<div id="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
-			</div>
-			<ul id="navigation">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="shop.html">The Shop</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="blog.html">Blog</a>
-				</li>
-				<li class="selected">
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="contents">
+
+
 		<div id="contact">
 			<h4>Free Website Templates</h4>
 			<p>This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.</p>
@@ -51,14 +19,3 @@
 				Vistida<br> 250 Lorem Ipsum Street<br> 4th Floor<br> Jaofanr, Caknan 109935<br> Kiangab
 			</p>
 		</div>
-	</div>
-	<div id="footer">
-		<div id="connect">
-			<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a><a href="http://www.freewebsitetemplates.com/misc/contact/" target="_blank" class="email"></a><a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a><a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
-		</div>
-		<p>
-			© 2023 Vistida. All Rights Reserved.
-		</p>
-	</div>
-</body>
-</html>
