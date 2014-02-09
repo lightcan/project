@@ -11,6 +11,7 @@ class Welcome extends Application {
 
     function __construct() {
         parent::__construct();
+        $this->load->model('post');
     }
 
     //-------------------------------------------------------------
@@ -20,6 +21,7 @@ class Welcome extends Application {
     function index() {
         $this->data['title'] = 'My Wonderful Webapp';
         $this->data['pagebody'] = 'welcome';
+        $this->data['post'] = $this->post->getAll_array();
         $this->render();
     }
 
