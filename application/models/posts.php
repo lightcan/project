@@ -5,7 +5,7 @@ class Post extends _Mymodel {
 // Constructor
     function __construct() {
         parent::__construct();
-        $this->setTable('post', 'id');
+        $this->setTable('posts', 'id');
         //$this->setTable('post', 'id');
        // $this->load->database();
        // $query = $this->db->get('post')

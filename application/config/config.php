@@ -3,9 +3,9 @@
 // the menu basics (text navbar)
 $config['menu_choices'] = array(
     'Home' => '/',
-    'About' => '/about',
     'Blog' => '/blog',
     'Apps' => '/apps',
+    'About' => '/about',
     'Contacts Us' => '/contact',
 );
 

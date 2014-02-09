@@ -5,7 +5,18 @@
     </p>
 </div>
 
-<div>
+<div id="recentposts">
+    {post}
+    <div class="postleft">
+        
+    </div>
+    <div class="postright">
+         
+    </div>
+    {/post}
+</div>
+
+<!-- <div>
     <table cols="" border="0">
         <tr>
             <th>Id</th>
@@ -22,7 +33,7 @@
         </tr>
         {/post}
     </table>
-</div>
+</div> -->
 
 <div id="featured">
     <ul>

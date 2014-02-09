@@ -3,15 +3,15 @@
 /**
  * Our homepage.
  * 
- * controllers/welcome.php
+ * controllers/home.php
  *
  * ------------------------------------------------------------------------
  */
-class Welcome extends Application {
+class Home extends Application {
 
     function __construct() {
         parent::__construct();
-        $this->load->model('post');
+        $this->load->model('posts');
     }
 
     //-------------------------------------------------------------
@@ -20,12 +20,12 @@ class Welcome extends Application {
 
     function index() {
         $this->data['title'] = 'My Wonderful Webapp';
-        $this->data['pagebody'] = 'welcome';
+        $this->data['pagebody'] = 'home';
         $this->data['post'] = $this->post->getAll_array();
         $this->render();
     }
 
 }
 
-/* End of file welcome.php */
-/* Location: application/controllers/welcome.php */
+/* End of file home.php */
+/* Location: application/controllers/home.php */
